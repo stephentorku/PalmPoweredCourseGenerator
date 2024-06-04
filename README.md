@@ -7,7 +7,7 @@ AI-Powered Education Platform is a Flask application that leverages the power of
 - **User Authentication**: Users can sign up, log in, and manage their profiles.
 - **Dynamic Course Generation**: The application can generate courses based on user input.
 - **Content Recommendation**: The platform recommends courses based on user preferences and learning history.
-- **AI-Powered Quizzes**: The application uses OpenAI's GPT-3 model to generate quizzes based on the user's chosen programming language.
+- **AI-Powered Quizzes**: The application uses OpenAI's GPT-3 model to generate quizzes based on the user's chosen subject or topic.
 - **Learning Analytics**: Users can track their learning progress and performance.
 - **User Interaction**: The platform provides an interactive user interface for an engaging learning experience.
 
@@ -48,4 +48,4 @@ This project uses the following open-source packages:
 
 ## Contact
 
-If you want to contact the me, you can reach out at `www.mohammedhamza5678@gmail.com`.
+If you want to contact the me, you can reach out at `mahrozmohammed922@gmail.com`.
