@@ -9,7 +9,7 @@
   <body>
     <div class="scorecard">
       <div class="scores">
-        <p class="score">{{score}}</p>
+        <p class="score">Your Score:<br> {{score}} / {{total_questions}}</p>
         <div class="answers">
           <div class="correct">
             <h3>The correct answers are</h3>
@@ -24,8 +24,21 @@
             {% endfor %}
           </div>
         </div>
+
+        <div style="margin: auto;width: 50%;">
+          <div>
+          Your New Proficiency: {{user_proficiency.proficiency_level}}
+        </div>
+          <br>
+        <div>
+          Based on your current Proficiency, we recommend you review this content: <br><br>
+          {% for content in recommended_content %}
+          <li>{{content}}</li>
+          {% endfor %}
+        </div>
+        </div>
         <div class="buttons">
-          <a href="{{ url_for('app1') }}" class="btn">Home</a>
+          <a href="{{ url_for('home') }}" class="btn">Home</a>
           <a href="{{ url_for('quiz_interface') }}" class="btn">Take Another Quiz</a>
         </div>
       </div>

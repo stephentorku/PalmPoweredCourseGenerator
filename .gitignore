@@ -1,0 +1,11 @@
+*.DS_Store
+*.sqlite3
+__pycache__/
+# Virtual environment directories
+env/
+venv/
+ENV/
+.venv/
+
+keys.py
+instance/

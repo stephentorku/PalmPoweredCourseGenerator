@@ -9,8 +9,8 @@
   <body>
     <div class="quiz">
       <div class="questions">
-        <h1>{{ quiz_content.language }}</h1>
-          <form action="http://localhost:5000/quiz" method="GET" class="question">
+        <h1>{{ quiz_content.topic }}</h1>
+          <form action="http://127.0.0.1:5000/course_quiz" method="GET" class="question">
           {% for question in quiz_content.questions %}
           <div class="question">
             <p>{{loop.index}}. {{ question.question }}</p>
@@ -29,6 +29,9 @@
             <!-- <div>The answer is "{{ question.answer }}"</div> -->
           </div>
           {% endfor %}
+
+          <label for="feedback"> How did you feel about this quiz? </label>
+          <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea>
           
           <button type="submit">Submit</button>
         </form>
