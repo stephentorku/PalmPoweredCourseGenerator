@@ -2,6 +2,14 @@
 
 The AI-Powered Education Platform is an improved Flask-based web application designed to deliver a dynamic and personalized learning experience. Leveraging the power of reinforcement learning, sentiment analysis, and OpenAI's GPT-3 model, the platform adapts to individual user needs, ensuring an engaging and effective learning journey.
 
+
+---
+This project was forked from an existing repository. However, very few features were retained. The following shows what parts of the application were retained:
+- The user model and login/logout/sign up flow
+- The html and css templates
+- The flow for generating quizzes and answers
+
+Everything else is a contribution of my own
 ---
 
 ## **Features**
